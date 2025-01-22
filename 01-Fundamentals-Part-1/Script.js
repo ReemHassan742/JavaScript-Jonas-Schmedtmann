@@ -39,7 +39,7 @@ console.log(typeof language);
 */
 
 /*
--let, const and var :
+-let, const and var (Assignment):
 
 const language = "Arabic";
 const country = "Egypt";
@@ -53,7 +53,7 @@ console.log(isIsland);
 */
 
 /*
--Basic Operators
+-Basic Operators (Assignment)
 
 let population = 182.254;
 const language = "Arabic";
@@ -74,7 +74,7 @@ console.log(description)
 */
 
 /*
-- Strings and Template Literals
+- Strings and Template Literals (Assignment)
 
 
 let population = 182.254;
@@ -93,4 +93,25 @@ console.log(population < 150);
 const description = ` ${city} is in ${country} ,and its ${population} thousands people speak ${language} `
 console.log(description)
 */
+
+/* Taking Decisions: if / else Statements (Assignment) :
+
+const population = 112.7;
+const country = "Egypt";
+
+if (population > 33) {
+    console.log(`${country}'s population is above average`);
+} else {
+    console.log(`${country}'s population is ${33 - population} million
+    below average`);
+}
+*/
+
+//Type Conversion and Coercion(Assignment):
+
+console.log('9' - '5'); // -> ?
+console.log('19' - '13' + '17'); // -> ?
+console.log('19' - '13' + 17); // -> ?
+console.log('123' < 57); // -> ?
+console.log(5 + 6 + '4' + 9 - 4 - 2); // -> ?
 
